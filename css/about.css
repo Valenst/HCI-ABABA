@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #292929;
+    width: 100%;
+}
+
+.logo img {
+    width: 100px;
+    padding: 20px 20px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px
+}
+
+.navigation-dropdown{
+    padding-right: 10px;
+    position: relative;
+}
+
+.navigation-dropdown img{
+    display: none;
+    width: 50px;
+}
+
+.navigation-submenu{
+    position: relative;
+    display: flex;
+}
+
+.navigation-submenu p{
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation-submenu p:hover{
+    color: mediumaquamarine;
+}
+
+.footer {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #292929;
+    width: 100%;
+    height: 100px;
+}
+
+.left_footer {
+    padding: 20px 20px;
+}
+
+.right_footer {
+    padding: 20px 20px;
+}
+
+.left_footer p{
+    color: white;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right_footer p{
+    color: white;
+    font-size: 17px;
+    padding: 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left_footer img{
+    width: 20px;
+    padding: 0px 3px;
+}
+
+#home_banner{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    background-color: #292929;
+}
+
+.banner_item{
+    display: none;
+}
+
+.banner_item img{
+    width: 100%;
+}
+
+.banner_item p{
+    position: absolute;
+    color: white;
+    text-shadow: 3px 3px #292929;
+    font-size: 70px;
+    padding: 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 0;
+    right: 0;
+    top: 40%;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .banner_item p{
+        font-size: 30px;
+    }
+
+    .navigation-submenu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0px;
+        z-index: 1;
+        width: 150px;
+    }
+
+    .navigation-submenu p{
+        font-size: 20px;
+    }
+
+    .navigation-submenu p:hover{
+        background-color: mediumaquamarine;
+        color: white;
+    }
+
+    .navigation-dropdown img{
+        display: block;
+    }
+
+    .navigation .navigation-dropdown:hover .navigation-submenu{
+        display: block;
+        background-color: #292929;
+    }
+
+    .upper-right img{
+        width: 100%;
+    }
+
+    .lower-left img{
+        width: 100%;
+    }
+}
+
+.content{
+    background-color: #8B8B8B;
+}
+
+.upper{
+    background-color: #8B8B8B;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-left{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px #292929;
+    width: 45%;
+    text-align: right;
+    padding: 20px;
+}
+
+.upper-right{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    padding: 20px;
+}
+
+.lower{
+    background-color: #3a3a3a;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower-right{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px #292929;
+    width: 45%;
+    padding: 20px;
+}
+
+.lower-left{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    padding: 20px;
+}
+
+
+.footer {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #292929;
+    width: 100%;
+    height: 100px;
+}
+
+.left_footer {
+    padding: 20px 20px;
+}
+
+.right_footer {
+    padding: 20px 20px;
+}
+
+.left_footer p{
+    color: white;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right_footer p{
+    color: white;
+    font-size: 17px;
+    padding: 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left_footer img{
+    width: 20px;
+    padding: 0px 3px;
+}
